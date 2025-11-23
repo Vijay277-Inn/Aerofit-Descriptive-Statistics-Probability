@@ -2,7 +2,7 @@ Aerofit Treadmill Customer Analysis — End-to-End Case Study
 
 This project analyzes how customer characteristics influence the choice of treadmill model at Aerofit. Using a dataset of 180 customers, the study combines descriptive analytics, exploratory data analysis, probability modeling, and customer segmentation to uncover the key drivers behind product preference across Aerofit’s three treadmill models — KP281, KP481, and KP781.
 
-🔍 Project Objectives
+**Project Objectives**
 The analysis answers the central business question:
 
 “How do customer characteristics influence the choice of treadmill purchased?”
@@ -14,7 +14,7 @@ Constructs marginal and conditional probability models.
 Identifies the most influential factors affecting product choice.
 Provides data-driven marketing and product strategy recommendations.
 
-📂 Dataset Overview
+**Dataset Overview**
 
 Rows: 180
 Columns: 9
@@ -22,7 +22,7 @@ Variables: Product, Age, Gender, Education, Marital Status, Usage, Fitness, Inco
 No missing values detected.
 Categorical variables converted to appropriate data types. 
 
-📈 Key Analytical Insights
+** Key Analytical Insights**
 1. Customer Segmentation by Product
 KP281 — Entry Level
 
@@ -46,14 +46,14 @@ Higher income (~$75K)
 Highest fitness levels (mean 4.62)
 Heavy weekly miles (~167 miles)
 
-🔗 Correlation Highlights
+**Correlation Highlights**
 
 Fitness ↔ Miles: Strong (0.79)
 Usage ↔ Miles: Strong (0.76)
 Income ↔ Fitness & Usage: Moderate
 Age: Weak relationships overall
 
-📊 Probability Findings
+**Probability Findings**
 
 Marginal Probabilities
 
@@ -69,7 +69,8 @@ P(KP281 | Income < 50K) = 58%
 P(KP781 | High Fitness) = 94% (strongest predictor) 
 
 
-💡 Business Recommendations
+**Business Recommendations**
+
 KP281 — Entry-Level
 Target: Budget-conscious young adults
 Messaging: Affordability & simplicity
